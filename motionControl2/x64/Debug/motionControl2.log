@@ -1,0 +1,39 @@
+﻿Build started 2018/4/26 16:44:31.
+     1>Project "C:\Users\drose\Documents\Visual Studio 2013\Projects\motionControl2\motionControl2\motionControl2.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Moc'ing motioncontrol2.h...
+         Uic'ing motioncontrol2.ui...
+         Moc'ing aspAction.h...
+         Moc'ing handControl.h...
+         Rcc'ing motioncontrol2.qrc...
+     1>RCC : warning : No resources in 'C:\Users\drose\Documents\Visual Studio 2013\Projects\motionControl2\motionControl2\motioncontrol2.qrc'.
+         
+         Uic'ing handControl.ui...
+         Uic'ing aspAction.ui...
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtCore /IC:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtGui /IC:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtWidgets /Zi /nologo /W1 /WX- /Od /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt aspAction.cpp GeneratedFiles\Debug\moc_aspAction.cpp GeneratedFiles\Debug\moc_handControl.cpp GeneratedFiles\Debug\moc_motioncontrol2.cpp handControl.cpp main.cpp motioncontrol2.cpp
+         aspAction.cpp
+         moc_aspAction.cpp
+         moc_handControl.cpp
+         moc_motioncontrol2.cpp
+         handControl.cpp
+         main.cpp
+         motioncontrol2.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtCore /IC:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtGui /IC:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtWidgets /Zi /nologo /W1 /WX- /Od /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt GeneratedFiles\qrc_motioncontrol2.cpp
+         qrc_motioncontrol2.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\drose\Documents\Visual Studio 2013\Projects\motionControl2\x64\Debug\\motionControl2.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.6.3\5.6.3\msvc2013_64\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\drose\Documents\Visual Studio 2013\Projects\motionControl2\x64\Debug\motionControl2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\drose\Documents\Visual Studio 2013\Projects\motionControl2\x64\Debug\motionControl2.lib" /MACHINE:X64 x64\Debug\aspAction.obj
+         x64\Debug\moc_aspAction.obj
+         x64\Debug\moc_handControl.obj
+         x64\Debug\moc_motioncontrol2.obj
+         x64\Debug\qrc_motioncontrol2.obj
+         x64\Debug\handControl.obj
+         x64\Debug\main.obj
+         x64\Debug\motioncontrol2.obj
+         motionControl2.vcxproj -> C:\Users\drose\Documents\Visual Studio 2013\Projects\motionControl2\x64\Debug\motionControl2.exe
+     1>Done Building Project "C:\Users\drose\Documents\Visual Studio 2013\Projects\motionControl2\motionControl2\motionControl2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.77
